@@ -1,0 +1,36 @@
+body {
+  font-family: 'Tajawal', sans-serif;
+  background: url('https://images.unsplash.com/photo-1606811841457-b277fdf7d89f') center/cover fixed;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: rgba(0,0,0,0.8);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #00aaff;
+  text-align: center;
+}
+h1 { color: #00aaff; margin-bottom: 10px; }
+.fee { font-size: 20px; font-weight: bold; color: #ffd700; }
+form { display: flex; flex-direction: column; }
+label { margin: 10px 0 5px; text-align: right; }
+input[type=text], input[type=tel] {
+  padding:10px; margin-bottom:15px;
+  border:none; border-radius:8px;
+  font-size:16px;
+}
+input[type=submit] {
+  padding:12px; font-size:18px;
+  color:#fff; background:#00aaff;
+  border:none; border-radius:8px;
+  cursor:pointer;
+  transition: background .3s;
+}
+input[type=submit]:hover {
+  background:#0077cc;
+}
+#msg { margin-top:15px; font-weight:bold; }
